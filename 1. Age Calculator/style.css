@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background: #4203a9;
+    padding: 5vw 0 2vw 5vw;
+}
+
+.container {
+    background-color: rgb(124, 124, 243);
+    padding: 2vw;
+    border-radius: 1vw;
+    width: 48%;
+}
+
+h1 {
+    font-size: 5vw;
+    color: #43d59b;
+}
+
+input {
+    font-size: 1.5vw;
+    border: none;
+    border-radius: .5vw;
+    color: rgb(116, 106, 93);
+    padding: 1vw 1.5vw;
+    margin-right: 2vw;
+    outline: 0;
+    width: 26vw;
+    cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-size: 1.7vw;
+    cursor: pointer;
+
+}
+
+button {
+    font-size: 1.4vw;
+    font-weight: 600;
+    background-color: #4CAF50;
+    color: rgb(239, 186, 186);
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7eb880;
+}
+
+#result {
+    margin-top: 3vw;
+    font-size: 2.4vw;
+    color: #b8cbe8;
+}
+
+#result span { 
+    color: #08d180;
+    font-weight: 550;
+}
